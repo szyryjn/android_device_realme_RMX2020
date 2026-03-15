@@ -8,11 +8,11 @@
         "target_path": "device/mediatek/sepolicy_vndr"
     },
     {
-        "repository": "crdroidandroid/android_vendor_realme_RMX2020",
+        "repository": "crdroidandroid/proprietary_vendor_realme_RMX2020",
         "target_path": "vendor/realme/RMX2020"
     },
     {
-        "repository": "crdroidandroid/android_vendor_realme_RMX2020-ims",
+        "repository": "crdroidandroid/proprietary_vendor_realme_RMX2020-ims",
         "target_path": "vendor/realme/RMX2020-ims"
     },
     {
