@@ -35,3 +35,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BuildFingerprint)
+
+# Derpfest Build Flags
+DERPFEST_BUILD_TYPE := UNOFFICIAL
+DERPFEST_BUILD_VARIANT := Stable
