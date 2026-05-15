@@ -1,0 +1,17 @@
+# device
+rm -rf device/realme/RMX2020 && git clone https://github.com/szyryjn/android_device_realme_RMX2020.git -b derp device/realme/RMX2020
+
+# kernel
+rm -rf kernel/realme/RMX2020 && git clone https://github.com/szyryjn911/android_kernel_realme_RMX2020.git -b 16.0 kernel/realme/RMX2020
+
+# vendor
+rm -rf vendor/realme/RMX2020 && git clone https://github.com/dpxdoss/vendor_realme_RMX2020.git -b sixteen-qpr2 vendor/realme/RMX2020
+
+# vendor-ims
+rm -rf vendor/realme/RMX2020-ims && git clone https://github.com/dpxdoss/vendor_realme_RMX2020-ims.git -b sixteen-qpr2 vendor/realme/RMX2020-ims
+
+# hardware-mediatek
+rm -rf hardware/mediatek && git clone https://github.com/crdroidandroid/android_hardware_mediatek.git -b 16.0 hardware/mediatek
+
+# sepolicy vendor
+rm -rf device/mediatek/sepolicy_vndr && git clone https://github.com/crdroidandroid/android_device_mediatek_sepolicy_vndr.git -b 16.0 device/mediatek/sepolicy_vndr
