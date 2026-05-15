@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 # Inherit from device makefile
 $(call inherit-product, device/realme/RMX2020/device.mk)
 
-# Inherit some common crDroid stuff.
+# Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
@@ -35,3 +35,12 @@ PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BuildFingerprint)
+
+# Vanilla
+WITH_GMS := false
+
+#Additional Lunaris Flags
+PERF_ANIM_OVERRIDE := true
+SURFACE_FLINGER_BOOST
+TARGET_ENABLE_BLUR := false
+TARGET_SUPPORTED_REFRESH_RATES := 60
